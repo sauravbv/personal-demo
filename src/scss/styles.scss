@@ -1,12 +1,8 @@
-
-// body{
-//     font-family: Arial, Helvetica, sans-serif;
-// }
-
 .sloganDiv{
     width: 60%;
     margin: 0 auto;
 }
+
 .slogan{
     font-size: 2.5em;
     font-family: 'Merriweather', serif;
@@ -65,17 +61,23 @@
             }
 }
 
+.pinfo{
+    font-size: 18px; 
+    color:#636363;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-style{
+    font-family: 'Roboto', sans-serif;
+}
+
 .vitalInfo{
     background: linear-gradient(#EBECF6, #FBFBFD);
     .card{
         min-height: 13em;
         box-shadow: 5px 5px 15px #EBECF6;
 
-        .pinfo{
-            font-size: 18px; 
-            color:#636363;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+
     }
 }
 
@@ -84,4 +86,26 @@
             font-family: Arial, Helvetica, sans-serif;
     }
 }
+
+.cardCustom{
+    cursor: pointer;
+    height: 7em;
+    background-color: #FFFFFF;
+    border: 2px solid #E7E9F7;
+}
+
+.collapse > .card-body{
+    background-color: #FFFFFF;
+}
+
+.reviewsRow > .col-4 {
+    .card{
+    border-radius: 0;
+    height: 19em;
+    width: 22em;
+    }
+}
+
+
+
 
