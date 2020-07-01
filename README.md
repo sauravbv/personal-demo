@@ -1,5 +1,5 @@
 # Instructions to run
-Download nodejs and vscode
-Open project in vs code
-In vs code terminal npm install
-To run project type gulp in terminal
+Download nodejs and vscode <br>
+Open project in vs code <br>
+In vs code terminal npm install <br>
+To run project type gulp in terminal 
